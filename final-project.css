@@ -32,9 +32,10 @@ body{
 /* ================= HEADER ================= */
 .site-header{
   display:flex;
+  flex-direction: column;
   align-items:center;
-  justify-content:flex-start;
-  gap:16px;
+  text-align: center;
+  gap:10px;
   margin-bottom:25px;
 }
 
@@ -72,6 +73,7 @@ body{
   border-radius:var(--radius);
   padding:20px;
   box-shadow:0 6px 18px rgba(32,32,32,0.06);
+  margin-bottom: 30px;
 }
 
 .recipe-title{
@@ -89,8 +91,8 @@ body{
 }
 
 .hero img{
-  width:70%;
-  max-width:300px;
+  width:100%;
+  max-width:500px;
   height:auto;
   border-radius:10px;
   display:block;
@@ -149,8 +151,8 @@ body{
   border-radius:10px;
   margin:5px;
   border:1px solid var(--border);
+  display:inline-block;
 }
-
 /* ================= BUTTON ================= */
 .juice-btn{
   background-color: var(--accent);
@@ -173,6 +175,14 @@ body{
   margin-top:18px;
   color:var(--muted);
   font-size:13px;
+}
+
+/* ================= INTRO TEXT ================= */
+.intro-text{
+  margin-top:8px;
+  color:#444;
+  font-size:15px;
+  max-width:500px;
 }
 
 /* ================= MOBILE ================= */

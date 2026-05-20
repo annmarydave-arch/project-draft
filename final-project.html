@@ -1,33 +1,42 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>Mello Juice — Tropical Mix</title>
 
-  <!-- Link to CSS file -->
   <link rel="stylesheet" href="final-project.css">
-
 </head>
 
 <body>
 
-  <main class="container">
+  <!-- HEADER -->
+  <header class="site-header">
 
-    <header class="site-header">
-
-      <img src="images/logo.png" alt="Mello Juice Logo" class="logo">
+    <img src="images/logo.png"
+         alt="Mello Juice colorful fruit logo"
+         class="logo">
 
     <div class="brand-text">
+
       <h1 class="brand">Mello Juice</h1>
 
       <p class="tagline">
         Fresh fruit juice for every person and every occasion
       </p>
-       </div>
 
-    </header>
+      <p class="intro-text">
+        Healthy, refreshing, and colorful juice recipes made with natural fruits.
+      </p>
+
+    </div>
+
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
 
     <article class="recipe-card">
 
@@ -35,7 +44,8 @@
 
       <figure class="hero">
 
-        <img src="images/image 1.jpg" alt="Glass of mixed fruit juice">
+        <img src="images/tropical-mix.jpg"
+             alt="Fresh tropical mixed fruit juice served in a glass with mango, pineapple, and strawberries">
 
         <figcaption>
           A vibrant blend of mango, pineapple, orange, and strawberry.
@@ -48,22 +58,29 @@
         pineapple, orange, and strawberries. Smooth, refreshing,
         and perfect for breakfast or parties.
       </p>
+
       <button onclick="showMessage()" class="juice-btn">
-  Click for a Juice Tip
-</button>
+        Click for a Juice Tip
+      </button>
 
       <section class="meta">
         <span><strong>Prep:</strong> 7 min</span>
         <span><strong>Serves:</strong> 2–3</span>
       </section>
 
+      <!-- INGREDIENTS -->
       <section class="ingredients">
 
-        <img src="images/mango.jpg" alt="mango">
-        <img src="images/strawberries.jpg" alt="Strawberry">
-        <img src="images/pineapple.jpg" alt="pineapple">
-
         <h3>Ingredients</h3>
+
+        <img src="images/mango.jpg"
+             alt="Fresh ripe mango sliced for juice preparation">
+
+        <img src="images/strawberries.jpg"
+             alt="Fresh strawberries used in tropical juice">
+
+        <img src="images/pineapple.jpg"
+             alt="Sweet pineapple chunks prepared for juice">
 
         <ul>
           <li>1 ripe mango</li>
@@ -77,6 +94,7 @@
 
       </section>
 
+      <!-- STEPS -->
       <section class="steps">
 
         <h3>Steps</h3>
@@ -91,6 +109,7 @@
 
       </section>
 
+      <!-- TOOLS -->
       <section class="tools">
 
         <h3>Tools</h3>
@@ -104,16 +123,125 @@
       </section>
 
     </article>
+    <article class="recipe-card">
 
-    <footer class="site-footer">
-      <p>© Mello Juice</p>
-    </footer>
+  <h2 class="recipe-title">Strawberry Splash</h2>
 
-    <script>
-  function showMessage() {
-    alert("Fresh juice gives you vitamins and energy!");
-  }
+  <figure class="hero">
+
+    <img src="images/strawberries.jpg"
+         alt="Fresh strawberry juice served in a glass">
+
+    <figcaption>
+      Sweet strawberry juice blended into a refreshing smoothie.
+    </figcaption>
+
+  </figure>
+
+  <p class="description">
+    A delicious strawberry drink packed with natural sweetness,
+    vitamins, and refreshing flavor for hot days.
+  </p>
+
+  <section class="meta">
+    <span><strong>Prep:</strong> 5 min</span>
+    <span><strong>Serves:</strong> 2</span>
+  </section>
+
+  <section class="ingredients">
+
+    <h3>Ingredients</h3>
+
+    <ul>
+      <li>2 cups strawberries</li>
+      <li>1 cup milk</li>
+      <li>1 tablespoon honey</li>
+      <li>Ice cubes</li>
+    </ul>
+
+  </section>
+
+  <section class="steps">
+
+    <h3>Steps</h3>
+
+    <ol>
+      <li>Wash the strawberries.</li>
+      <li>Add ingredients into a blender.</li>
+      <li>Blend until smooth.</li>
+      <li>Serve cold.</li>
+    </ol>
+
+  </section>
+
+</article>
+<article class="recipe-card">
+
+  <h2 class="recipe-title">Pineapple Fresh</h2>
+
+  <figure class="hero">
+
+    <img src="images/pineapple.jpg"
+         alt="Fresh pineapple juice in a tropical glass">
+
+    <figcaption>
+      Tropical pineapple juice full of freshness and energy.
+    </figcaption>
+
+  </figure>
+
+  <p class="description">
+    Pineapple Fresh is a tropical juice filled with sweet flavor,
+    vitamin C, and natural energy.
+  </p>
+
+  <section class="meta">
+    <span><strong>Prep:</strong> 6 min</span>
+    <span><strong>Serves:</strong> 2</span>
+  </section>
+
+  <section class="ingredients">
+
+    <h3>Ingredients</h3>
+
+    <ul>
+      <li>2 cups pineapple chunks</li>
+      <li>1 cup cold water</li>
+      <li>1 teaspoon honey</li>
+      <li>Ice cubes</li>
+    </ul>
+
+  </section>
+
+  <section class="steps">
+
+    <h3>Steps</h3>
+
+    <ol>
+      <li>Add pineapple into blender.</li>
+      <li>Blend with water and ice.</li>
+      <li>Taste and adjust sweetness.</li>
+      <li>Serve chilled.</li>
+    </ol>
+
+  </section>
+
+</article>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© 2026 Mello Juice</p>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    function showMessage() {
+      alert("Fresh juice gives you vitamins and energy!");
+    }
   </script>
-    
+
 </body>
+
 </html>
